@@ -1,0 +1,43 @@
+:root {
+  --bgcolor: #248234;
+  --hovercolor: #50dbd9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: var(--bgcolor);
+  padding: 1.3rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  align-self: center;
+  margin-left: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  padding: 1.3rem;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  background-color: var(--hovercolor);
+}
+
+.menu-icon {
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
